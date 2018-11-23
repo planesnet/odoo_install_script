@@ -10,9 +10,17 @@ This script can be safely used in a multi-odoo code base server because the defa
 ## Installation procedure
 
 ##### 1. Download the script:
+
+Ubuntu
 ```
 sudo wget https://raw.githubusercontent.com/planesnet/odoo_install_script/12.0/odoo_install.sh
 ```
+
+Debian
+```
+sudo wget https://raw.githubusercontent.com/planesnet/odoo_install_script/12.0/odoo_install_debian.sh
+```
+
 ##### 2. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:<br/>
 ```OE_USER``` will be the username for the system user.<br/>
